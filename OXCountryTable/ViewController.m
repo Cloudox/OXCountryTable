@@ -22,6 +22,7 @@
     
     self.countryArray = [[NSMutableArray alloc] init];
     self.countryCodeArray = [[NSMutableArray alloc] init];
+    
     NSLocale *locale = [NSLocale currentLocale];
     NSArray *countryArray = [NSLocale ISOCountryCodes];
     for (NSString *countryCode in countryArray) {
