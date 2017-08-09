@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B8A24E831F3AF1BB006B894C"
+               BuildableName = "OXCountryTable.app"
+               BlueprintName = "OXCountryTable"
+               ReferencedContainer = "container:OXCountryTable.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B8A24E9C1F3AF1BB006B894C"
+               BuildableName = "OXCountryTableTests.xctest"
+               BlueprintName = "OXCountryTableTests"
+               ReferencedContainer = "container:OXCountryTable.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B8A24EA71F3AF1BB006B894C"
+               BuildableName = "OXCountryTableUITests.xctest"
+               BlueprintName = "OXCountryTableUITests"
+               ReferencedContainer = "container:OXCountryTable.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B8A24E831F3AF1BB006B894C"
+            BuildableName = "OXCountryTable.app"
+            BlueprintName = "OXCountryTable"
+            ReferencedContainer = "container:OXCountryTable.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B8A24E831F3AF1BB006B894C"
+            BuildableName = "OXCountryTable.app"
+            BlueprintName = "OXCountryTable"
+            ReferencedContainer = "container:OXCountryTable.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B8A24E831F3AF1BB006B894C"
+            BuildableName = "OXCountryTable.app"
+            BlueprintName = "OXCountryTable"
+            ReferencedContainer = "container:OXCountryTable.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
